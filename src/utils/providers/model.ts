@@ -54,6 +54,7 @@ const CREATE_AI_MAPPER = {
   "vercel": createVercel,
   "ollama": createOllama,
   "minimax": createMinimax,
+  "minimax-cn": createMinimax,
   "alibaba": createAlibaba,
   "moonshotai": createMoonshotAI,
   "huggingface": createHuggingFace,

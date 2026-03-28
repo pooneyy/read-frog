@@ -131,6 +131,11 @@ export const DEFAULT_LLM_PROVIDER_MODELS: LLMProviderModels = {
     isCustomModel: false,
     customModel: null,
   },
+  "minimax-cn": {
+    model: "MiniMax-M2.7",
+    isCustomModel: false,
+    customModel: null,
+  },
   "alibaba": {
     model: "qwen3.5-flash",
     isCustomModel: false,
@@ -289,6 +294,11 @@ export const PROVIDER_ITEMS: Record<AllProviderTypes, { logo: (theme: Theme) => 
       logo: getLobeIconsCDNUrlFn("minimax-color"),
       name: "MiniMax",
       website: "https://platform.minimax.io",
+    },
+    "minimax-cn": {
+      logo: getLobeIconsCDNUrlFn("minimax-color"),
+      name: "MiniMax China",
+      website: "https://www.minimaxi.com",
     },
     "alibaba": {
       logo: getLobeIconsCDNUrlFn("bailian-color"),
@@ -533,6 +543,15 @@ export const DEFAULT_PROVIDER_CONFIG = {
     enabled: true,
     provider: "minimax",
     model: DEFAULT_LLM_PROVIDER_MODELS.minimax,
+  },
+  "minimax-cn": {
+    id: "minimax-cn-default",
+    name: PROVIDER_ITEMS["minimax-cn"].name,
+    description: i18n.t("options.apiProviders.providers.description.minimaxCN"),
+    enabled: false,
+    provider: "minimax-cn",
+    baseURL: "https://api.minimaxi.com/anthropic/v1",
+    model: DEFAULT_LLM_PROVIDER_MODELS["minimax-cn"],
   },
   "alibaba": {
     id: "alibaba-default",
