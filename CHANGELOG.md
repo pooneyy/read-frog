@@ -1,5 +1,19 @@
 # @read-frog/extension
 
+## 1.49.1
+
+### Patch Changes
+
+- [#2261](https://github.com/mengxi-ream/read-frog/pull/2261) [`7baf76a`](https://github.com/mengxi-ream/read-frog/commit/7baf76ae8abf41e003d8112fb77ff58b38de340d) Thanks [@ananaBMaster](https://github.com/ananaBMaster)! - feat(custom-actions): offer an Upgrade to pricing when Built-in AI quota runs out
+
+- [#2260](https://github.com/mengxi-ream/read-frog/pull/2260) [`c4bdbee`](https://github.com/mengxi-ream/read-frog/commit/c4bdbee33dd7944d0b3c14990a7fc6f16c90a947) Thanks [@ananaBMaster](https://github.com/ananaBMaster)! - fix(tts): explain language detection fallback
+
+- [#2262](https://github.com/mengxi-ream/read-frog/pull/2262) [`c6c8bf2`](https://github.com/mengxi-ream/read-frog/commit/c6c8bf24fbb32dc6ef3f672f1ffb3ab98c8562de) Thanks [@ananaBMaster](https://github.com/ananaBMaster)! - fix(selection-toolbar): stop custom action footer controls from overlapping in narrow popovers
+
+- [#2263](https://github.com/mengxi-ream/read-frog/pull/2263) [`0c3bf08`](https://github.com/mengxi-ream/read-frog/commit/0c3bf08c0dcea07c3c890c8bcddec453414b65e7) Thanks [@ananaBMaster](https://github.com/ananaBMaster)! - fix(selection-toolbar): clip hovers to the toolbar corners and set off the more button
+
+- [#2264](https://github.com/mengxi-ream/read-frog/pull/2264) [`6c0996f`](https://github.com/mengxi-ream/read-frog/commit/6c0996fc0075e483edc2552a1477e5f78815992e) Thanks [@taiiiyang](https://github.com/taiiiyang)! - fix(subtitles): show the next caption after a pause instead of an empty box
+
 ## 1.49.0
 
 ### Minor Changes
